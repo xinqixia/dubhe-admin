@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="xin.qixia.dubhe.datasource.mapper.CardMapper">
+<select id="getVoCard" resultType="xin.qixia.dubhe.pojo.VoCard">
+#     select card,time,type,used_time
+#     from card
+#     wherr
+</select>
+</mapper>

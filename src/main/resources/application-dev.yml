@@ -1,0 +1,20 @@
+# 本地环境
+server:
+  port: 8000
+# 数据库配置
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dubhe?useUnicode=true&useSSL=false&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+# 图片读取路径
+imgUrl: "F:/"
+#用户头像上传路径
+imgFile: "F:/uploads/images/"
+
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
